@@ -8,8 +8,8 @@ var bodyParser = require('body-parser');
 
 var app = express();
 
-//Conexion e installación de la BBDD
-require('./lib/install_db');
+//Conexion a la BBDD
+require('./lib/connectMongoose');
 
 //Modelos
 require('./models/Anuncio');

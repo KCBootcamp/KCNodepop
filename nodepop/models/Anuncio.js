@@ -3,32 +3,41 @@
  */
 "use strict";
 
-var mongoose = require('mongoose');
+let mongoose = require('mongoose');
 
-var anuncioSchema = mongoose.Schema({
+let anuncioSchema = mongoose.Schema({
     nombre: String,
     venta: Boolean,
     precio: Number,
     foto: String,
     tags: [String]
 });
-let files=require('fs');
+
 anuncioSchema.statics.listPromise = function () {
     return new Promise(function (resolve, reject) {
-        let url=__dirname+'/../anuncios.json';
-        console.log('URL del archivo', url);
-        files.readFile(url,'utf-8',function (err,data) {
-            if (err){
-
-                console.log('error al ejecutar la promesa');
+        Anuncio.find(function (err, anuncios) {
+            if (err) {
                 return reject(err);
             }
-
-            console.log('éxito al ejecutar la promesa');
-            return resolve(JSON.parse(data));
-
-        })
-    })
+            return resolve(anuncios);
+        });
+        });
+        
+        
+    
 };
 
-var Anuncio = mongoose.model('Anuncio', anuncioSchema);
+anuncioSchema.statics.deleteAll = function() { 
+    return new Promise (function(resolve,reject){
+        Anuncio.remove({}, function (err) {
+            if (err) {
+                return reject(err);
+            }
+            return resolve();
+        });
+
+    });
+    
+};
+
+let Anuncio = mongoose.model('Anuncio', anuncioSchema);
