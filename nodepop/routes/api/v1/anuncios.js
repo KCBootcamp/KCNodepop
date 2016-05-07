@@ -39,6 +39,23 @@ let fs = require('fs');
         });
     });
 
-
+router.get('/filtrados?tag1=:tag1?&tag2=:tag2?&tag3=:tag3?&tag4=:tag4?&venta=:venta?&precio=:precio?&nombre=:nombre?' +
+    '&start=:start?&limit=:limit?&sort=:sort?&includeTotal=:includeTotal&token=:token'
+    , function (req,res) {
+    Anuncio.filtrarAnuncios(req.params)
+        .then(function(data){
+            if(data.length===0){
+                data='0 results';
+            }
+            if (req.params.includeTotal==='true'){
+                return res.json({success:true, rows:data, total:data.length});
+            }
+            return res.json({success:true, rows:data});
+        })
+        .catch(function(err){
+            console.log('ERROR', err);
+            return res.json({success:false, rows:err});
+        });
+});
 
 module.exports = router;
