@@ -83,7 +83,5 @@
     "precio": 5300.00,
     "foto": "furgoneta.jpeg",
     "tags": [ "motor", "work"]
-  } ],
-  "usuarios":[],
-  "tokens":[]
+  } ]
 }
