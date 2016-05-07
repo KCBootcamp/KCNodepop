@@ -1,4 +1,4 @@
-[{
+{
   "anuncios": [ {
     "nombre": "Bicicleta",
     "venta": true,
@@ -9,7 +9,81 @@
     "nombre": "iPhone 3GS",
     "venta": false,
     "precio": 50.00,
-    "foto": "iphone.png",
+    "foto": "iphone.jpg",
     "tags": [ "lifestyle", "mobile"]
-  } ]
-}]
+  }, {
+    "nombre": "iPhone 6",
+    "venta": false,
+    "precio": 520.00,
+    "foto": "iphone6.jpeg",
+    "tags": [ "lifestyle", "mobile"]
+  }, {
+    "nombre": "Samsung Galaxy S6",
+    "venta": false,
+    "precio": 350.00,
+    "foto": "samsung.jpeg",
+    "tags": [ "lifestyle", "mobile"]
+  }, {
+    "nombre": "Mini Cooper S",
+    "venta": true,
+    "precio": 15200.00,
+    "foto": "mini.jpeg",
+    "tags": [ "lifestyle", "motor"]
+  }, {
+    "nombre": "iMac",
+    "venta": true,
+    "precio": 900.00,
+    "foto": "imac.jpeg",
+    "tags": [ "lifestyle", "work"]
+  }, {
+    "nombre": "iPod",
+    "venta": false,
+    "precio": 70.00,
+    "foto": "ipod.jpeg",
+    "tags": [ "lifestyle", "mobile"]
+  }, {
+    "nombre": "Apple wach",
+    "venta": false,
+    "precio": 250.00,
+    "foto": "applewatch.jpeg",
+    "tags": [ "lifestyle", "mobile"]
+  }, {
+    "nombre": "Nexus 5X",
+    "venta": true,
+    "precio": 350.00,
+    "foto": "nexus.jpeg",
+    "tags": [ "lifestyle", "mobile"]
+  }, {
+    "nombre": "Monitor",
+    "venta": true,
+    "precio": 150.00,
+    "foto": "monitor.jpeg",
+    "tags": [ "work"]
+  }, {
+    "nombre": "Silla ergonómica",
+    "venta": false,
+    "precio": 90.00,
+    "foto": "silla.jpeg",
+    "tags": [ "work"]
+  }, {
+    "nombre": "Vespa",
+    "venta": true,
+    "precio": 1050.00,
+    "foto": "vespa.jpeg",
+    "tags": [ "lifestyle", "motor"]
+  }, {
+    "nombre": "Impresora 3D",
+    "venta": true,
+    "precio": 750.00,
+    "foto": "impresora.jpeg",
+    "tags": [ "work"]
+  }, {
+    "nombre": "Furgoneta",
+    "venta": false,
+    "precio": 5300.00,
+    "foto": "furgoneta.jpeg",
+    "tags": [ "motor", "work"]
+  } ],
+  "usuarios":[],
+  "tokens":[]
+}
