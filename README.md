@@ -12,34 +12,74 @@ A continuación, se describe en detalle cada una de las partes desarrolladas en 
 ######Descripción
 Proporciona un listado completo de anuncios.
 
-
-######Parámetros
+######+Parámetros
              Nombre | Situado en | Descripción | Requerido | Tipo
             --------|------------|-------------|-----------|------
-            a|s|d|f|g
+            ||||
 
 ######Respuestas
 
              Código | Descripción | Respuesta
             --------|-------------|-----------
-            a|s|d|
+            200|Array de Anuncios| {success:true, rows:{}}
+            --------|-------------|-----------
+            Por defecto|Error| {success:false, rows:error}
             
-######URL ejemplo:
+######URL ejemplo: _/api/v1/anuncios/_
 
-     + GET /images/
-        * Descripción
-        * Parámetros
-        * Respuestas
+#####GET /images/
+######Descripción
 
-     + GET _/filtrados
-        * Descripción
-        * Parámetros
-        * Respuestas
+######+Parámetros
+          Nombre | Situado en | Descripción | Requerido | Tipo
+         --------|------------|-------------|-----------|------
+         ||||
 
-     + GET /tags
-        * Descripción
-        * Parámetros
-        * Respuestas
+######Respuestas
+
+          Código | Descripción | Respuesta
+         --------|-------------|-----------
+         ||
+         --------|-------------|-----------
+         ||
+
+######URL ejemplo: _/api/v1/anuncios/images/bici.jpg_
+
+#####GET /filtrados
+######Descripción
+
+######+Parámetros
+          Nombre | Situado en | Descripción | Requerido | Tipo
+         --------|------------|-------------|-----------|------
+         ||||
+
+######Respuestas
+
+          Código | Descripción | Respuesta
+         --------|-------------|-----------
+         ||
+         --------|-------------|-----------
+         ||
+
+######URL ejemplo: _/api/v1/anuncios/filtrados_
+
+#####GET /tags
+######Descripción
+
+######+Parámetros
+          Nombre | Situado en | Descripción | Requerido | Tipo
+         --------|------------|-------------|-----------|------
+         ||||
+
+######Respuestas
+
+          Código | Descripción | Respuesta
+         --------|-------------|-----------
+         ||
+         --------|-------------|-----------
+         ||
+
+######URL ejemplo: _/api/v1/anuncios/tags/_
 
 ####Pushtokens [Upstage](/api/v1/pushTokens)
 
