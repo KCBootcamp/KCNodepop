@@ -108,7 +108,7 @@ function loadCollectionAnuncio(collection) {
 
 function loadDefaultUser(err) {
     let Usuario = mongoose.model('Usuario');
-    let usuario =new Usuario({nombre:'invitado', contraseña:'1234', email:'invitado@email.com'});
+    let usuario =new Usuario({nombre:'invitado', clave:'1234', email:'invitado@email.com'});
     if(err){
         throw err;
         return;
