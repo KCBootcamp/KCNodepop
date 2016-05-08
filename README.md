@@ -4,6 +4,12 @@ Nodepop, es un proyecto que tiene como objetivo la creación de una API REST par
 
 A continuación, se describe en detalle cada una de las partes desarrolladas en el proyecto.
 
+##API
+###Versión 1
+####Anuncios
+####Pushtokens
+####Usuarios
+
 ##Modelo de datos
 
 ###Anuncio
@@ -28,21 +34,28 @@ Modelo que describe el artículo que se pone en venta o se quiere comprar.
 
 ###Token (Push Token)
 ####Descripción
+Modelo que almacenará el token para recibir notificaciones push de los sistemas de Google (GCM) o Apple (APNS) del cliente y que proporcionará a la API  al iniciar la app.
 
 ####Esquema (Parámetros)
+    + plataforma: {type: String, enum: ['ios', 'android']}
+    + token: String
+    + usuario: String
+
 ####Métodos
+    +listTokens: función proporciona un listado completo de los token push.
+    +deleteAll: función que elimina todos los registros en la base de datos.
 
 ###Usuario
 ####Descripción
+Modelo para almacenar todos los usuarios registrados en la API (se ha creado un usuario invitado iniciale para realizar pruebas)
 
 ####Esquema (Parámetros)
-####Métodos
+    + nombre: {type: String, required:true},
+    + email: {type: String, required:true},
+    + clave: {type: String, required:true}
 
-##API
-###Versión 1
-####Anuncios
-####Pushtokens
-####Usuarios
+####Métodos
+    +deleteAll: función que elimina todos los registros en la base de datos.
 
 ##Registro
 

@@ -19,7 +19,6 @@ usuarioSchema.statics.deleteAll = function() {
             }
             return resolve();
         });
-
     });
 };
 
