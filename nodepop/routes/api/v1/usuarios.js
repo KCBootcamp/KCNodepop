@@ -54,14 +54,14 @@ router.post('/register', function (req,res) {
                 return res.status(500).json({success: false, error: err});
             }
             if (user){
-                return res.json({success: false, error: er.existinguser});
+                return res.status(406).json({success: false, error: er.existinguser});
             }
             Usuario.findOne({email: req.body.mail}).exec(function (err,user) {
                 if (err) {
                     return res.status(500).json({success: false, error: err});
                 }
                 if (user){
-                    return res.json({success: false, error: er.existingmail});
+                    return res.status(406).json({success: false, error: er.existingmail});
                 }
 
                

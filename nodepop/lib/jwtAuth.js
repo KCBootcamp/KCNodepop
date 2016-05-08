@@ -26,7 +26,7 @@ module.exports = function() {
             // verifies secret and checks exp
             jwt.verify(token, configJWT.secret, function(err, decoded) {
                 if (err) {
-                    return res.json({ ok: false, error: {code: 401, message: er.tokenauth}});
+                    return res.json({ success: false, error: {code: 401, message: er.tokenauth}});
                 } else {
                     // if everything is good, save to request for use in other routes
                     req.decoded = decoded;
@@ -36,7 +36,7 @@ module.exports = function() {
         } else {
             // if there is no token return error
             return res.status(403).json({
-                ok: false,
+                success: false,
                 error: { code: 403, message: er.missingtoken}
             });
         }

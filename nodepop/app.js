@@ -45,12 +45,6 @@ app.use('/api/v1/anuncios', require('./routes/api/v1/anuncios'));
 app.use('/api/v1/usuarios', require('./routes/api/v1/usuarios'));
 app.use('/api/v1/pushTokens', require('./routes/api/v1/pushTokens'));
 
-console.log('Errores',er.notvalid);
-// console.log(er.then(function (data) {
-//     console.log('mensaje de error', data.notvalid);
-// }));
-
-
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
