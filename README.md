@@ -6,9 +6,9 @@ A continuación, se describe en detalle cada una de las partes desarrolladas en 
 
 ##API
 ###Versión 1
-####Anuncios [Upstage](/api/v1/anuncios)
+####Anuncios */api/v1/anuncios*
 
-    + GET [Upstage](/)
+    + *GET /*
         * Descripción: Proporciona un listado completo de anuncios.
 
         * Parámetros
@@ -24,17 +24,17 @@ A continuación, se describe en detalle cada una de las partes desarrolladas en 
 
         * URL ejemplo:
 
-    + GET [Upstage](/images/)
+    + *GET /images/*
         * Descripción
         * Parámetros
         * Respuestas
 
-    + GET [Upstage](/filtrados)
+    + *GET /filtrados*
         * Descripción
         * Parámetros
         * Respuestas
 
-    + GET [Upstage](/tags)
+    + *GET /tags*
         * Descripción
         * Parámetros
         * Respuestas
