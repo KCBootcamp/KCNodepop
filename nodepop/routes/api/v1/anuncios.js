@@ -7,7 +7,11 @@ let express = require('express');
 let router = express.Router();
 
 let mongoose = require('mongoose');
-let Anuncio = mongoose.model('Anuncio');
+var Anuncio = mongoose.model('Anuncio');
+
+//Auth
+let jwtAuth = require('../../../lib/jwtAuth');
+router.use(jwtAuth());
 
 router.get('/', function (req,res) {
     Anuncio.listPromise().then(function (anuncios) {
@@ -20,7 +24,7 @@ let fs = require('fs');
     router.get('/images/:image', function (req, res){
         let ruta=req.params.image;
         console.log('RUTA',ruta);
-        var options = {
+        let options = {
             root: __dirname+'/../../../public/images/',
             dotfiles: 'deny',
             headers: {
@@ -39,8 +43,7 @@ let fs = require('fs');
         });
     });
 
-router.get('/filtrados?tag1=:tag1?&tag2=:tag2?&tag3=:tag3?&tag4=:tag4?&venta=:venta?&precio=:precio?&nombre=:nombre?' +
-    '&start=:start?&limit=:limit?&sort=:sort?&includeTotal=:includeTotal&token=:token'
+router.get('/filtrados'
     , function (req,res) {
     Anuncio.filtrarAnuncios(req.params)
         .then(function(data){

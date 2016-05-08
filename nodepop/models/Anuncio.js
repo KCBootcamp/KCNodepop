@@ -21,10 +21,7 @@ anuncioSchema.statics.listPromise = function () {
             }
             return resolve(anuncios);
         });
-        });
-        
-        
-    
+    });
 };
 
 anuncioSchema.statics.deleteAll = function() { 
@@ -119,4 +116,5 @@ function addNameCondition(query,value){
     return query;
 }
 
+anuncioSchema.index({nombre:1, precio:1});
 let Anuncio = mongoose.model('Anuncio', anuncioSchema);
