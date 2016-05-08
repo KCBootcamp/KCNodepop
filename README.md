@@ -6,9 +6,58 @@ A continuación, se describe en detalle cada una de las partes desarrolladas en 
 
 ##API
 ###Versión 1
-####Anuncios
-####Pushtokens
-####Usuarios
+####Anuncios [Upstage](/api/v1/anuncios)
+
+    + GET [Upstage](/)
+        * Descripción: Proporciona un listado completo de anuncios.
+
+        * Parámetros
+            | Nombre | Situado en | Descripción | Requerido | Tipo |
+            |--------|------------|-------------|-----------|------|
+            ||||||
+
+        * Respuestas
+
+            | Código | Descripción | Respuesta |
+            |--------|-------------|-----------|
+            ||||
+
+        * URL ejemplo:
+
+    + GET [Upstage](/images/)
+        * Descripción
+        * Parámetros
+        * Respuestas
+
+    + GET [Upstage](/filtrados)
+        * Descripción
+        * Parámetros
+        * Respuestas
+
+    + GET [Upstage](/tags)
+        * Descripción
+        * Parámetros
+        * Respuestas
+
+####Pushtokens [Upstage](/api/v1/pushTokens)
+
+    + GET [Upstage](/)
+        * Descripción
+        * Parámetros
+        * Respuestas
+
+####Usuarios [Upstage](/api/v1/usuarios)
+
+    + GET [Upstage](/authenticate)
+        * Descripción
+        * Parámetros
+        * Respuestas
+
+
+    + GET [Upstage](/register)
+        * Descripción
+        * Parámetros
+        * Respuestas
 
 ##Modelo de datos
 
