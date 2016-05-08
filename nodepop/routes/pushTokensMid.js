@@ -8,6 +8,9 @@ var router = express.Router();
 let mongoose = require('mongoose');
 let Token = mongoose.model('Token');
 
+var errMes=require('./errorMessages');
+var er=errMes('en');
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
     
@@ -15,7 +18,7 @@ router.get('/', function(req, res, next) {
     let tokenpush=new Token({plataforma: req.query.plataforma, token: req.query.token, usuario: req.query.usuario});
     tokenpush.save(function (err, tokenCreated) {
         if (err) {
-            console.log('Error', err, 'al guardar token push: ', tokenpush);
+            console.log(er.errorsavingtokenpush, err, tokenpush);
             return next();
 
         }

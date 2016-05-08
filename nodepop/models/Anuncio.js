@@ -37,6 +37,13 @@ anuncioSchema.statics.deleteAll = function() {
 
 };
 
+anuncioSchema.statics.listarTags=function () {
+    return new Promise(function (res,rej) {
+        let tags=['lifestyle', 'work', 'motor', 'mobile'];
+        return res(tags);
+    })
+};
+
 anuncioSchema.statics.filtrarAnuncios=function(params){
     return new Promise(function (res,rej) {
         let query;
@@ -71,7 +78,6 @@ anuncioSchema.statics.filtrarAnuncios=function(params){
 function addBooleanCondition(query,obj, value){
     if (value){
         if(!(value.match('true|false'))){
-            console.log('Error expresion regular');
             return;
         }
         return query.where(obj);

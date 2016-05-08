@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="195d42c7-da0c-4aa7-8618-a41929e0cc96" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodepop/app.js" afterPath="$PROJECT_DIR$/nodepop/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodepop/errors_en.json" afterPath="$PROJECT_DIR$/nodepop/errors_en.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodepop/errors_es.json" afterPath="$PROJECT_DIR$/nodepop/errors_es.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodepop/models/Anuncio.js" afterPath="$PROJECT_DIR$/nodepop/models/Anuncio.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodepop/routes/api/v1/anuncios.js" afterPath="$PROJECT_DIR$/nodepop/routes/api/v1/anuncios.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodepop/routes/api/v1/usuarios.js" afterPath="$PROJECT_DIR$/nodepop/routes/api/v1/usuarios.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodepop/routes/pushTokensMid.js" afterPath="$PROJECT_DIR$/nodepop/routes/pushTokensMid.js" />
     </list>
     <ignored path="Nodepop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,91 +22,17 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="errors_es.json" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/nodepop/errors_es.json">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="45">
-                    <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-    <window id="2">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="errors_en.json" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/nodepop/errors_en.json">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="45">
-                    <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Nodepop" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Anuncio.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Anuncio.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nodepop/models/Anuncio.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#49#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pushTokens.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodepop/routes/api/v1/pushTokens.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#49#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="usuarios.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodepop/routes/api/v1/usuarios.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#49#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="anuncios.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodepop/routes/api/v1/anuncios.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
-              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state relative-caret-position="1155">
+              <caret line="79" column="41" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
               <folding>
                 <element signature="e#0#49#0" expanded="false" />
               </folding>
@@ -114,8 +43,8 @@
       <file leaf-file-name="Token.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nodepop/models/Token.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="100">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="38" />
               <folding>
                 <element signature="e#0#49#0" expanded="false" />
               </folding>
@@ -123,21 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodepop/app.js">
+      <file leaf-file-name="anuncios.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodepop/routes/api/v1/anuncios.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="install_db.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodepop/install_db.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="63" column="16" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="16" />
+            <state relative-caret-position="960">
+              <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
               <folding>
                 <element signature="e#0#49#0" expanded="false" />
               </folding>
@@ -145,12 +64,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="local_config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodepop/local_config.js">
+      <file leaf-file-name="pushTokens.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodepop/routes/api/v1/pushTokens.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="48" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#49#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usuarios.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodepop/routes/api/v1/usuarios.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-              <folding />
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#49#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,6 +100,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="pushTokensMid.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nodepop/routes/pushTokensMid.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#49#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Usuario.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nodepop/models/Usuario.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -175,6 +120,16 @@
               <folding>
                 <element signature="e#0#49#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jwtAuth.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodepop/lib/jwtAuth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-95">
+              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="10" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -213,18 +168,18 @@
         <option value="$PROJECT_DIR$/nodepop/models/Usuario.js" />
         <option value="$PROJECT_DIR$/nodepop/routes/api/v1/tokens.js" />
         <option value="$PROJECT_DIR$/nodepop/models/Token.js" />
-        <option value="$PROJECT_DIR$/nodepop/routes/api/v1/pushTokens.js" />
-        <option value="$PROJECT_DIR$/nodepop/routes/api/v1/usuarios.js" />
-        <option value="$PROJECT_DIR$/nodepop/routes/pushTokensMid.js" />
-        <option value="$PROJECT_DIR$/nodepop/routes/api/v1/anuncios.js" />
         <option value="$PROJECT_DIR$/nodepop/routes/errorMessageGenerator.js" />
         <option value="$PROJECT_DIR$/nodepop/routes/languageMid.js" />
         <option value="$PROJECT_DIR$/nodepop/routes/errorMessages.js" />
         <option value="$PROJECT_DIR$/nodepop/app.js" />
-        <option value="$PROJECT_DIR$/nodepop/errors_en.json" />
-        <option value="$PROJECT_DIR$/nodepop/errors_es.json" />
         <option value="$PROJECT_DIR$/nodepop/lib/jwtAuth.js" />
+        <option value="$PROJECT_DIR$/nodepop/routes/api/v1/pushTokens.js" />
+        <option value="$PROJECT_DIR$/nodepop/routes/api/v1/anuncios.js" />
+        <option value="$PROJECT_DIR$/nodepop/errors_es.json" />
+        <option value="$PROJECT_DIR$/nodepop/errors_en.json" />
         <option value="$PROJECT_DIR$/nodepop/models/Anuncio.js" />
+        <option value="$PROJECT_DIR$/nodepop/routes/api/v1/usuarios.js" />
+        <option value="$PROJECT_DIR$/nodepop/routes/pushTokensMid.js" />
       </list>
     </option>
   </component>
@@ -234,10 +189,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1280" />
-    <option name="y" value="23" />
+    <option name="x" value="-1270" />
+    <option name="y" value="134" />
     <option name="width" value="1280" />
-    <option name="height" value="1001" />
+    <option name="height" value="851" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -553,12 +508,12 @@
       <workItem from="1462102033654" duration="17901000" />
       <workItem from="1462448274767" duration="5681000" />
       <workItem from="1462454919401" duration="84000" />
-      <workItem from="1462459183356" duration="69896000" />
+      <workItem from="1462459183356" duration="73116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93562000" />
+    <option name="totallyTimeSpent" value="96782000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -570,7 +525,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1280" y="23" width="1280" height="1001" extended-state="6" />
+    <frame x="-1270" y="134" width="1280" height="851" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -580,7 +535,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23212321" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27799737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39823982" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -882,40 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodepop/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodepop/anuncios.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodepop/routes/pushTokensMid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodepop/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nodepop/bin/www">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -932,6 +853,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nodepop/local_config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodepop/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodepop/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodepop/anuncios.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodepop/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodepop/install_db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nodepop/lib/connectMongoose.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -942,26 +913,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodepop/errors_en.json">
+    <entry file="file://$PROJECT_DIR$/nodepop/lib/jwtAuth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        <state relative-caret-position="-95">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="10" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodepop/lib/jwtAuth.js">
+    <entry file="file://$PROJECT_DIR$/nodepop/models/Anuncio.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="1155">
+          <caret line="79" column="41" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nodepop/models/Token.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="100">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="38" />
           <folding>
             <element signature="e#0#49#0" expanded="false" />
           </folding>
@@ -978,59 +951,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodepop/routes/api/v1/anuncios.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nodepop/routes/api/v1/pushTokens.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        <state relative-caret-position="255">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="48" />
           <folding>
             <element signature="e#0#49#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodepop/routes/api/v1/usuarios.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodepop/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodepop/install_db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="63" column="16" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodepop/local_config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,10 +971,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodepop/models/Anuncio.js">
+    <entry file="file://$PROJECT_DIR$/nodepop/routes/api/v1/anuncios.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        <state relative-caret-position="960">
+          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodepop/routes/api/v1/usuarios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="20" />
           <folding>
             <element signature="e#0#49#0" expanded="false" />
           </folding>
@@ -1056,9 +993,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nodepop/errors_es.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+        <state relative-caret-position="255">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodepop/errors_en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodepop/routes/pushTokensMid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

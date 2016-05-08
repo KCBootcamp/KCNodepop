@@ -45,12 +45,12 @@ let fs = require('fs');
 
 router.get('/filtrados'
     , function (req,res) {
-    Anuncio.filtrarAnuncios(req.params)
+    Anuncio.filtrarAnuncios(req.query)
         .then(function(data){
             if(data.length===0){
                 data='0 results';
             }
-            if (req.params.includeTotal==='true'){
+            if (req.query.includeTotal==='true'){
                 return res.json({success:true, rows:data, total:data.length});
             }
             return res.json({success:true, rows:data});
@@ -60,5 +60,17 @@ router.get('/filtrados'
             return res.json({success:false, rows:err});
         });
 });
+
+router.get('/tags'
+    , function (req,res) {
+        Anuncio.listarTags()
+            .then(function(data){
+                return res.json({success:true, rows:data});
+            })
+            .catch(function(err){
+                console.log('ERROR', err);
+                return res.json({success:false, rows:err});
+            });
+    });
 
 module.exports = router;

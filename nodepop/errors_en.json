@@ -1,6 +1,19 @@
 {
   "errors":{
-    "notvalid": "Failed to authenticate token.",
-    "missingtoken": "No token provided."
+    "tokenauth": "Failed to authenticate token.",
+    "missingtoken": "No token provided.",
+    "400":"Bad request, modify the query according the specifications",
+    "401":"Unauthorized, provide credentials",
+    "404":"Resource not found",
+    "500": "Internal Server Error",
+    "authfailed":"Authorization failed",
+    "usernotfound": "User not found",
+    "mailnotfound":"Email not found",
+    "invalidpass":"Invalid password",
+    "registerincorrect":"Register failed, check all the fields",
+    "existinguser":"There is already a user with this name",
+    "existingmail":"There is already one user with this email",
+    "errorsavinguser":"Error saving user",
+    "errorsavingtokenpush":"Error saving token push"
   }
 }

@@ -1,6 +1,19 @@
 {
   "errors":{
     "tokenauth": "Error al autenticar el token",
-    "missingtoken":"No se proporcionado el token"
+    "missingtoken":"No se proporcionado el token",
+    "400":"Consulta incorrecta, modifique la consulta según las especificaciones ",
+    "401":"No autorizado, incluya sus credenciales",
+    "404":"Recurso no encontrado",
+    "500": "Error de servidor",
+    "authfailed":"Fallo en autentificación",
+    "usernotfound": "Usuario no encontrado",
+    "mailnotfound":"Email no encontrado",
+    "invalidpass":"Contraseña incorrecta",
+    "registerincorrect":"Fallo en el registro, compruebe todos los campos",
+    "existinguser":"Ya hay un usuario registrado con este nombre",
+    "existingmail":"Ya hay un usuario registrado con este email",
+    "errorsavinguser":"Error al guardar usuario",
+    "errorsavingtokenpush":"Error al guardar token push"
   }
 }

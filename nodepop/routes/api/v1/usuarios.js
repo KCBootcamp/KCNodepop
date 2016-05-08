@@ -10,6 +10,9 @@ var router = express.Router();
 
 var Usuario =require('mongoose').model('Usuario');
 
+var errMes=require('./../../errorMessages');
+var er=errMes('en');
+
 
 router.post('/authenticate', function (req,res) {
     var user=req.body.user;
@@ -22,15 +25,15 @@ router.post('/authenticate', function (req,res) {
         }
 
         if(!user){
-            return res.status(401).json({success: false, error: "Auth failed, user not found."});
+            return res.status(401).json({success: false, error: er.authfailed+", "+er.usernotfound});
         }
 
         if(!mail){
-            return res.status(401).json({success: false, error: "Auth failed, email not found."});
+            return res.status(401).json({success: false, error: er.authfailed+", "+er.mailnotfound});
         }
 
         if(user.clave !== pass){
-            return res.status(401).json({success: false, error: "Invalid password"});
+            return res.status(401).json({success: false, error: er.invalidpass});
         }
         var token = jwt.sign({id: user._id}, config.jwt.secret, {expiresIn:60 * 60 * 24 * 2});
 
@@ -44,33 +47,33 @@ router.post('/register', function (req,res) {
     let usuario = new Usuario({nombre: req.body.user, clave: req.body.pass, email: req.body.mail});
     let errores = usuario.validateSync();
     if(errores && errores.length!==0){
-        res.status(401).json({success: false, error: 'Usuario incorrecto compruebe todos los campos'});
+        res.status(401).json({success: false, error: er.registerincorrect});
     }
         Usuario.findOne({nombre: req.body.user}).exec(function (err,user) {
             if (err) {
                 return res.status(500).json({success: false, error: err});
             }
             if (user){
-                return res.json({success: false, error: "Ya hay un usuario registrado con este nombre"});
+                return res.json({success: false, error: er.existinguser});
             }
             Usuario.findOne({email: req.body.mail}).exec(function (err,user) {
                 if (err) {
                     return res.status(500).json({success: false, error: err});
                 }
                 if (user){
-                    return res.json({success: false, error: "Ya hay un usuario registrado con este email"});
+                    return res.json({success: false, error: er.existingmail});
                 }
 
                
                 usuario.save(function (err, userCreated) {
                     if (err) {
                         console.log('Error', err, 'al guardar usuario: ', usuario);
-                        return res.json({success: false, error: "Error al guardar usuario"});
+                        return res.json({success: false, error: er.errorsavinguser});
 
                     }
 
                     console.log('Usuario', userCreated);
-                    res.json({success: true, usuario: 'usuario creado: ' + userCreated.nombre});
+                    res.json({success: true, usuario: 'User: ' + userCreated.nombre});
                     
                 });
             });
