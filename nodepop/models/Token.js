@@ -3,13 +3,15 @@
  */
 "use strict";
 
-let mongoose = require('mongoose');
+var mongoose = require('mongoose');
 
-let tokenSchema = mongoose.Schema({
-    token: String
+let pushTokenSchema = mongoose.Schema({
+    plataforma: {type: String, enum: ['ios', 'android']},
+    token: String,
+    usuario: String
 });
 
-tokenSchema.statics.deleteAll = function() {
+pushTokenSchema.statics.deleteAll = function() {
     return new Promise (function(resolve,reject){
         Token.remove({}, function (err) {
             if (err) {
@@ -21,4 +23,16 @@ tokenSchema.statics.deleteAll = function() {
     });
 };
 
-let Token = mongoose.model('Token',tokenSchema);
+pushTokenSchema.statics.listTokens = function () {
+    return new Promise(function (resolve, reject) {
+        Token.find(function (err, tokens) {
+            if (err) {
+                return reject(err);
+            }
+            return resolve(tokens);
+        });
+    });
+};
+
+
+let Token = mongoose.model('Token',pushTokenSchema);
