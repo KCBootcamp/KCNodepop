@@ -8,21 +8,22 @@ A continuación, se describe en detalle cada una de las partes desarrolladas en 
 ###Versión 1
 ####Anuncios **_/api/v1/anuncios_**
 
-     + GET /
-        * Descripción: Proporciona un listado completo de anuncios.
+#####GET /
+######Descripción
+Proporciona un listado completo de anuncios.
 
-        * Parámetros
+######Parámetros
              Nombre | Situado en | Descripción | Requerido | Tipo
             --------|------------|-------------|-----------|------
             a|s|d|f|g
 
-        * Respuestas
+######Respuestas
 
              Código | Descripción | Respuesta
             --------|-------------|-----------
             a|s|d|
-
-        * URL ejemplo:
+            
+######URL ejemplo:
 
      + GET /images/
         * Descripción
