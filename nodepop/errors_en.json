@@ -1,0 +1,6 @@
+{
+  "errors":{
+    "notvalid": "Failed to authenticate token.",
+    "missingtoken": "No token provided."
+  }
+}

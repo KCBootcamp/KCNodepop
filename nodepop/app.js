@@ -8,11 +8,19 @@ var bodyParser = require('body-parser');
 
 var app = express();
 
+var errMes=require('./routes/errorMessages');
+var er=errMes('en');
+
 //Conexion a la BBDD
 require('./lib/connectMongoose');
 
 //Modelos
 require('./models/Anuncio');
+require('./models/Usuario');
+require('./models/Token');
+
+
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -26,11 +34,22 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+//Middleware del token push
+app.use('/',require('./routes/pushTokensMid'));
+
 app.use('/', require('./routes/index'));
 app.use('/users', require('./routes/users'));
 
 //rutas del api
 app.use('/api/v1/anuncios', require('./routes/api/v1/anuncios'));
+app.use('/api/v1/usuarios', require('./routes/api/v1/usuarios'));
+app.use('/api/v1/pushTokens', require('./routes/api/v1/pushTokens'));
+
+console.log('Errores',er.notvalid);
+// console.log(er.then(function (data) {
+//     console.log('mensaje de error', data.notvalid);
+// }));
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

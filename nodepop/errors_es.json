@@ -1,0 +1,6 @@
+{
+  "errors":{
+    "tokenauth": "Error al autenticar el token",
+    "missingtoken":"No se proporcionado el token"
+  }
+}
