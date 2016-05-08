@@ -8,36 +8,39 @@ A continuación, se describe en detalle cada una de las partes desarrolladas en 
 ###Versión 1
 ####Anuncios **_/api/v1/anuncios_**
 
-    + **GET _/_**
-        * Descripción: Proporciona un listado completo de anuncios.
+    <ul>
+     <li>**GET _/_**</li>
+     <ul>
+        <li> Descripción: Proporciona un listado completo de anuncios.</li>
 
-        * Parámetros
+        <li> Parámetros</li>
             | Nombre | Situado en | Descripción | Requerido | Tipo |
             |--------|------------|-------------|-----------|------|
             |a|s|d|f|g|
 
-        * Respuestas
+        <li> Respuestas</li>
 
             | Código | Descripción | Respuesta |
             |--------|-------------|-----------|
             |a|s|d|
 
-        * URL ejemplo:
+        <li> URL ejemplo:</li>
 
-    + **GET _/images/_**
+     <li>**GET _/images/_**</li>
         * Descripción
         * Parámetros
         * Respuestas
 
-    + **GET _/filtrados_**
+     <li>**GET _/filtrados_**</li>
         * Descripción
         * Parámetros
         * Respuestas
 
-    + **GET _/tags_**
+     <li>**GET _/tags_**</li>
         * Descripción
         * Parámetros
         * Respuestas
+        </ul>
 
 ####Pushtokens [Upstage](/api/v1/pushTokens)
 
