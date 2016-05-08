@@ -12,6 +12,7 @@ A continuación, se describe en detalle cada una de las partes desarrolladas en 
 ######Descripción
 Proporciona un listado completo de anuncios.
 
+
 ######Parámetros
              Nombre | Situado en | Descripción | Requerido | Tipo
             --------|------------|-------------|-----------|------
