@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="195d42c7-da0c-4aa7-8618-a41929e0cc96" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodepop/app.js" afterPath="$PROJECT_DIR$/nodepop/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodepop/install_db.js" afterPath="$PROJECT_DIR$/nodepop/install_db.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodepop/models/Anuncio.js" afterPath="$PROJECT_DIR$/nodepop/models/Anuncio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodepop/models/Token.js" afterPath="$PROJECT_DIR$/nodepop/models/Token.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodepop/models/Usuario.js" afterPath="$PROJECT_DIR$/nodepop/models/Usuario.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodepop/package.json" afterPath="$PROJECT_DIR$/nodepop/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodepop/routes/api/v1/anuncios.js" afterPath="$PROJECT_DIR$/nodepop/routes/api/v1/anuncios.js" />
     </list>
     <ignored path="Nodepop.iws" />
@@ -558,12 +553,12 @@
       <workItem from="1462102033654" duration="17901000" />
       <workItem from="1462448274767" duration="5681000" />
       <workItem from="1462454919401" duration="84000" />
-      <workItem from="1462459183356" duration="69775000" />
+      <workItem from="1462459183356" duration="69896000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93441000" />
+    <option name="totallyTimeSpent" value="93562000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -955,14 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodepop/errors_es.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nodepop/lib/jwtAuth.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1064,6 +1051,14 @@
           <folding>
             <element signature="e#0#49#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodepop/errors_es.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
