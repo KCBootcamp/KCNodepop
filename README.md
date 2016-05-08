@@ -7,7 +7,6 @@ A continuación, se describe en detalle cada una de las partes desarrolladas en 
 ##API
 ###Versión 1
 ####Anuncios **_/api/v1/anuncios_**
-
     <ul>
      <li>**GET _/_**</li>
      <ul>
@@ -26,6 +25,7 @@ A continuación, se describe en detalle cada una de las partes desarrolladas en 
 
         <li> URL ejemplo:</li>
 
+      </ul>
      <li>**GET _/images/_**</li>
         * Descripción
         * Parámetros
@@ -40,7 +40,7 @@ A continuación, se describe en detalle cada una de las partes desarrolladas en 
         * Descripción
         * Parámetros
         * Respuestas
-        </ul>
+     </ul>
 
 ####Pushtokens [Upstage](/api/v1/pushTokens)
 
