@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="195d42c7-da0c-4aa7-8618-a41929e0cc96" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodepop/errors_en.json" afterPath="$PROJECT_DIR$/nodepop/errors_en.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodepop/errors_es.json" afterPath="$PROJECT_DIR$/nodepop/errors_es.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodepop/models/Anuncio.js" afterPath="$PROJECT_DIR$/nodepop/models/Anuncio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodepop/routes/api/v1/anuncios.js" afterPath="$PROJECT_DIR$/nodepop/routes/api/v1/anuncios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodepop/routes/api/v1/usuarios.js" afterPath="$PROJECT_DIR$/nodepop/routes/api/v1/usuarios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodepop/routes/pushTokensMid.js" afterPath="$PROJECT_DIR$/nodepop/routes/pushTokensMid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="Nodepop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,17 +17,37 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DockManager">
+    <window id="3">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/README.md">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="30">
+                    <caret line="2" column="296" selection-start-line="2" selection-start-column="296" selection-end-line="2" selection-end-column="296" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Nodepop" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Anuncio.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Anuncio.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nodepop/models/Anuncio.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="79" column="41" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
+            <state relative-caret-position="210">
+              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
               <folding>
                 <element signature="e#0#49#0" expanded="false" />
               </folding>
@@ -100,7 +115,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pushTokensMid.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pushTokensMid.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nodepop/routes/pushTokensMid.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
@@ -180,6 +195,7 @@
         <option value="$PROJECT_DIR$/nodepop/models/Anuncio.js" />
         <option value="$PROJECT_DIR$/nodepop/routes/api/v1/usuarios.js" />
         <option value="$PROJECT_DIR$/nodepop/routes/pushTokensMid.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -508,12 +524,12 @@
       <workItem from="1462102033654" duration="17901000" />
       <workItem from="1462448274767" duration="5681000" />
       <workItem from="1462454919401" duration="84000" />
-      <workItem from="1462459183356" duration="73116000" />
+      <workItem from="1462459183356" duration="74657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96782000" />
+    <option name="totallyTimeSpent" value="98323000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -586,16 +602,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nodepop/models/Usuario.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nodepop/lib/connectMongoose.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -921,16 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodepop/models/Anuncio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="79" column="41" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nodepop/models/Token.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1014,6 +1010,24 @@
           <folding>
             <element signature="e#0#49#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodepop/models/Anuncio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="296" selection-start-line="2" selection-start-column="296" selection-end-line="2" selection-end-column="296" />
+          <folding />
         </state>
       </provider>
     </entry>
